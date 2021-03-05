@@ -1,4 +1,4 @@
-Это задание - реализация API для справочника.
+Это задание - реализация Laravel API для справочника. 
 
 Получение данных о пользователях 
 GET  http://directory.gulyasmir.ru/public/api/client
