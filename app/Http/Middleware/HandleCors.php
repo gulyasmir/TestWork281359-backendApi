@@ -5,8 +5,6 @@ use Closure;
 
 class HandleCors
 {
-
-
     public function handle($request, Closure $next)
     {
         return $next($request)
@@ -14,7 +12,6 @@ class HandleCors
             ->header('Access-Control-Allow-Methods', 'GET, POST, PATCH, PUT, DELETE, OPTIONS')
             ->header('Access-Control-Allow-Headers', 'Origin, Content-Type, X-Auth-Token, Authorization');
     }
-
 
 }
 
