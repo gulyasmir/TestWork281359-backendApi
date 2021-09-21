@@ -18,8 +18,8 @@ GET  https://directory.gulyasmir.ru/api/client/2
 POST  https://directory.gulyasmir.ru/api/login
 
 Query Params {
-   email: ...,
-   login: ...
+   email: ..., // gulyasmir@yandex.ru
+   login: ...  // z4Q-EHN-8Yj-GEi
 }
 
 
